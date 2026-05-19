@@ -116,18 +116,20 @@ function clearHighlight(state: AppState): void {
 }
 
 function attachPanelButtons(state: AppState): void {
-  state.ui.pathBtn.addEventListener("click", () => {
+  const runPath = (mode: "all" | "shortest") => {
     if (!state.selectedNid) return;
     const focal = focalNid(state.spec);
     if (!focal) return;
     if (state.selectedNid === focal) {
-      // Same node: just highlight the focal alone.
       state.highlight = { mode: "path", highlightedNids: new Set([focal]) };
     } else {
-      state.highlight = pathToFocal(state.selectedNid, focal, state.adjacency);
+      state.highlight = pathToFocal(state.selectedNid, focal, state.adjacency, mode);
     }
     applyHighlight(state.highlight, state.svgRoot, state.nodeIndex, state.spec);
-  });
+  };
+
+  state.ui.pathAllBtn.addEventListener("click", () => runPath("all"));
+  state.ui.pathShortestBtn.addEventListener("click", () => runPath("shortest"));
 
   state.ui.ancestorsBtn.addEventListener("click", () => {
     if (!state.selectedNid) return;

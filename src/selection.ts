@@ -11,7 +11,8 @@ export interface SelectionUI {
   factsEl: HTMLDListElement;
   linksEl: HTMLElement;
   notesEl: HTMLElement;
-  pathBtn: HTMLButtonElement;
+  pathAllBtn: HTMLButtonElement;
+  pathShortestBtn: HTMLButtonElement;
   ancestorsBtn: HTMLButtonElement;
   clearBtn: HTMLButtonElement;
 }
@@ -30,7 +31,8 @@ export function getSelectionUI(): SelectionUI {
     factsEl: $<HTMLDListElement>("sp-facts"),
     linksEl: $("sp-links"),
     notesEl: $("sp-notes"),
-    pathBtn: $<HTMLButtonElement>("sp-path"),
+    pathAllBtn: $<HTMLButtonElement>("sp-path-all"),
+    pathShortestBtn: $<HTMLButtonElement>("sp-path-shortest"),
     ancestorsBtn: $<HTMLButtonElement>("sp-ancestors"),
     clearBtn: $<HTMLButtonElement>("sp-clear"),
   };

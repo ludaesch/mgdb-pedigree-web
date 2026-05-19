@@ -1,6 +1,6 @@
 import type { RenderSpec } from "./types";
 import type { SvgNodeIndex } from "./svgIndex";
-import type { AdjacencyIndex } from "./graph";
+import type { AdjacencyIndex, PathMode } from "./graph";
 import { ancestors, pathNodes } from "./graph";
 
 export type HighlightMode = "none" | "path" | "ancestors";
@@ -60,16 +60,19 @@ export function applyHighlight(
   }
 }
 
-// Compute highlight state for "show path to focal".
+// Compute highlight state for "show path(s) to focal".
+// mode="all" (default): every node on any directed path. Faithful to the DAG.
+// mode="shortest": only nodes on minimum-length paths. Cleaner lineage chain.
 export function pathToFocal(
   from: string,
   focalNid: string,
   adj: AdjacencyIndex,
+  mode: PathMode = "all",
 ): HighlightState {
-  const nids = pathNodes(adj, from, focalNid);
+  const nids = pathNodes(adj, from, focalNid, mode);
   if (nids.size === 0) {
     // Try the reverse direction (focal might be downstream).
-    const fromFocal = pathNodes(adj, focalNid, from);
+    const fromFocal = pathNodes(adj, focalNid, from, mode);
     return { mode: "path", highlightedNids: fromFocal };
   }
   return { mode: "path", highlightedNids: nids };

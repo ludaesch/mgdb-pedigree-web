@@ -52,11 +52,29 @@ export function descendants(adj: AdjacencyIndex, start: string): Set<string> {
   return seen;
 }
 
-// All shortest paths from `from` upward through advisor edges to `to`. Returns
-// the union of nodes on any such path (suitable for path highlighting on a DAG).
-// If no path exists, returns an empty set.
-export function pathNodes(adj: AdjacencyIndex, from: string, to: string): Set<string> {
-  // BFS upward from `from`, recording predecessors.
+// Two path-highlight modes on the DAG.
+// Both return the set of nodes on the directed path(s) from `from` to `to`
+// (following student → advisor edges). Empty set if `to` is not reachable.
+export type PathMode = "all" | "shortest";
+
+// ALL paths: a node X is on some directed path from `from` to `to` iff
+// X is reachable upward from `from` AND `to` is reachable upward from X.
+// Equivalently, X ∈ ancestors(from) ∩ descendants(to). Simple, exact for a
+// DAG, and faithful to the multi-advisor structure of the genealogy.
+export function pathNodesAll(adj: AdjacencyIndex, from: string, to: string): Set<string> {
+  const anc = ancestors(adj, from);
+  if (!anc.has(to)) return new Set();
+  const desc = descendants(adj, to);
+  const out = new Set<string>();
+  for (const x of anc) if (desc.has(x)) out.add(x);
+  return out;
+}
+
+// SHORTEST paths: the union of nodes on any path of minimum length. Useful
+// when the user wants a clean lineage chain rather than the full reachability
+// envelope. Drops longer alternative branches, even when they exist.
+export function pathNodesShortest(adj: AdjacencyIndex, from: string, to: string): Set<string> {
+  // BFS upward from `from`, recording shortest-distance predecessors.
   const dist = new Map<string, number>([[from, 0]]);
   const preds = new Map<string, string[]>();
   const queue: string[] = [from];
@@ -88,6 +106,16 @@ export function pathNodes(adj: AdjacencyIndex, from: string, to: string): Set<st
     }
   }
   return onPath;
+}
+
+// Dispatch by mode.
+export function pathNodes(
+  adj: AdjacencyIndex,
+  from: string,
+  to: string,
+  mode: PathMode = "all",
+): Set<string> {
+  return mode === "all" ? pathNodesAll(adj, from, to) : pathNodesShortest(adj, from, to);
 }
 
 // Index edges by endpoint key "student->advisor" so we can find SVG edge groups quickly.

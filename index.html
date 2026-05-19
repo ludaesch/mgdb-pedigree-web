@@ -45,7 +45,12 @@
           <div id="sp-links" class="links-row"></div>
           <p id="sp-notes" class="notes" hidden></p>
           <div class="actions">
-            <button id="sp-path" type="button">Highlight path to focal</button>
+            <button id="sp-path-all" type="button" title="Every node on any directed path between this scholar and the focal student">
+              Highlight all paths to focal
+            </button>
+            <button id="sp-path-shortest" type="button" title="Only nodes on minimum-length paths">
+              Shortest path(s) only
+            </button>
             <button id="sp-ancestors" type="button">Highlight ancestors</button>
             <button id="sp-clear" type="button">Clear highlights</button>
           </div>
