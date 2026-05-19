@@ -171,6 +171,16 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
   display: block;
 }
 
+/* Graphviz emits a <polygon fill="white"> as the very first child of
+   <g id="graph0">, painting a hard white rectangle behind the graph. Make it
+   transparent so the page's radial-gradient canvas shows through and the
+   graph appears to float on an infinite plane.
+   Cluster backgrounds live deeper (inside <g id="clustN">) so they are NOT
+   affected by this direct-child selector. */
+#svg-host #graph0 > polygon:first-of-type {
+  fill: transparent;
+}
+
 /* ─── Side panel ──────────────────────────────────────────────────── */
 
 #side-panel {
