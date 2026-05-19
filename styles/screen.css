@@ -22,6 +22,12 @@
 
 * { box-sizing: border-box; }
 
+/* The HTML `hidden` attribute applies `display: none` only at user-agent level,
+   which loses to any author-level rule with higher specificity (e.g. an ID
+   selector that sets `display: flex`). Promote it so `el.hidden = true` always
+   wins. */
+[hidden] { display: none !important; }
+
 html, body {
   height: 100%;
   margin: 0;
