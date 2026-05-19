@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Pedigree</title>
+    <link rel="stylesheet" href="/styles/screen.css" />
+  </head>
+  <body>
+    <header id="app-header">
+      <h1 id="app-title">Academic Pedigree</h1>
+      <div id="search-wrap">
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search scholars or roles (committee, famous, focal, uiuc)…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <ul id="search-results" role="listbox" hidden></ul>
+      </div>
+      <div id="header-actions">
+        <button id="btn-reset" type="button">Reset view</button>
+        <button id="btn-legend" type="button" aria-expanded="false" aria-controls="legend">
+          Legend
+        </button>
+      </div>
+    </header>
+
+    <main id="app-main">
+      <section id="graph-container" aria-label="Pedigree graph">
+        <div id="graph-loading">Loading pedigree…</div>
+        <div id="svg-host"></div>
+      </section>
+
+      <aside id="side-panel" aria-label="Selected scholar details">
+        <div id="side-panel-empty">
+          <p>Click a scholar to see details.</p>
+          <p class="muted">Double-click or Cmd/Ctrl-click to open the primary link.</p>
+        </div>
+        <div id="side-panel-content" hidden>
+          <h2 id="sp-name"></h2>
+          <p id="sp-roles" class="roles-row"></p>
+          <dl id="sp-facts"></dl>
+          <div id="sp-links" class="links-row"></div>
+          <p id="sp-notes" class="notes" hidden></p>
+          <div class="actions">
+            <button id="sp-path" type="button">Highlight path to focal</button>
+            <button id="sp-ancestors" type="button">Highlight ancestors</button>
+            <button id="sp-clear" type="button">Clear highlights</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <section id="legend" hidden aria-labelledby="legend-heading">
+      <h2 id="legend-heading">Legend</h2>
+      <div class="legend-grid">
+        <div class="legend-group">
+          <h3>Roles</h3>
+          <ul>
+            <li><span class="swatch role-focal_student"></span>Focal student</li>
+            <li><span class="swatch role-primary_advisor"></span>Primary advisor</li>
+            <li><span class="swatch role-committee"></span>Committee</li>
+            <li><span class="swatch role-informal_committee"></span>Informal committee</li>
+            <li><span class="swatch role-famous"></span>Famous ancestor</li>
+            <li><span class="swatch role-lca"></span>LCA</li>
+            <li><span class="swatch role-pairwise_lca"></span>Pairwise LCA</li>
+            <li><span class="swatch role-uiuc_sibling"></span>UIUC sibling</li>
+            <li><span class="swatch role-other_sibling"></span>Other sibling</li>
+          </ul>
+        </div>
+        <div class="legend-group">
+          <h3>Edges</h3>
+          <ul>
+            <li><span class="swatch swatch-edge edge-primary"></span>Primary advisor</li>
+            <li><span class="swatch swatch-edge edge-advisor"></span>Advisor</li>
+            <li><span class="swatch swatch-edge edge-committee"></span>Committee</li>
+          </ul>
+        </div>
+        <div class="legend-group">
+          <h3>Interaction</h3>
+          <ul>
+            <li>Click — select &amp; show details</li>
+            <li>Double-click — open primary link</li>
+            <li>Cmd/Ctrl-click — open primary link</li>
+            <li>Drag — pan · Scroll — zoom</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

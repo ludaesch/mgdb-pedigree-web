@@ -1,0 +1,421 @@
+/* ─────────────────────────────────────────────────────────────────────
+   MGDB Pedigree — screen styles.
+   Layout: 3-row grid (header / main / legend).
+   Main: 2-col grid (graph / side panel).
+   ───────────────────────────────────────────────────────────────────── */
+
+:root {
+  --bg: #fafaf7;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --border: #d8d8d2;
+  --accent: #b48a2c;
+  --accent-soft: #e8d9a8;
+  --panel-bg: #fffdf6;
+  --header-bg: #f5f3ec;
+  --link: #2a5a8e;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+
+  --header-h: 56px;
+  --panel-w: 360px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Palatino", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  color: var(--fg);
+  background: var(--bg);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: var(--header-h) 1fr auto;
+}
+
+/* ─── Header ──────────────────────────────────────────────────────── */
+
+#app-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
+
+#app-title {
+  margin: 0;
+  font-family: "Baskerville", "Baskerville Italic", Georgia, serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 28rem;
+}
+
+#search-wrap {
+  position: relative;
+  max-width: 32rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  font: inherit;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 4px;
+}
+
+#search-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+#search-results {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 60vh;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  z-index: 20;
+}
+
+#search-results li {
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  border-bottom: 1px solid #f0eee6;
+}
+#search-results li:last-child { border-bottom: none; }
+#search-results li:hover { background: var(--accent-soft); }
+
+.result-name { font-weight: 500; }
+.result-meta { color: var(--muted); font-size: 0.85rem; }
+
+#header-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  font: inherit;
+  font-size: 0.9rem;
+  background: white;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+}
+button:hover { background: var(--accent-soft); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* ─── Main: graph + side panel ────────────────────────────────────── */
+
+#app-main {
+  display: grid;
+  grid-template-columns: 1fr var(--panel-w);
+  overflow: hidden;
+  min-height: 0;
+}
+
+#graph-container {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at center, #fdfcf6, #f3f0e6);
+  border-right: 1px solid var(--border);
+}
+
+#graph-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-style: italic;
+}
+
+#svg-host {
+  position: absolute;
+  inset: 0;
+}
+
+#svg-host svg {
+  display: block;
+}
+
+/* ─── Side panel ──────────────────────────────────────────────────── */
+
+#side-panel {
+  background: var(--panel-bg);
+  padding: 1rem 1.1rem;
+  overflow-y: auto;
+  border-left: 1px solid var(--border);
+}
+
+#side-panel-empty {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+#side-panel-empty .muted { color: #999; font-size: 0.85rem; }
+
+#sp-name {
+  margin: 0 0 0.4rem;
+  font-family: "Baskerville", Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #222;
+}
+
+.roles-row {
+  margin: 0 0 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.role-chip {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: #efece2;
+  border: 1px solid #ddd8c8;
+  color: #555;
+}
+.role-chip.role-focal_student { background: gold; border-color: #b8961e; color: #4a3700; }
+.role-chip.role-primary_advisor { background: #ffe89a; border-color: #b8961e; color: #4a3700; }
+.role-chip.role-committee { background: #cfe5f4; border-color: #6e9fc5; color: #1f3e58; }
+.role-chip.role-informal_committee { background: #def0f6; border-color: #88b5c8; color: #2a4859; }
+.role-chip.role-famous { background: #ffe89a; border-color: #b8961e; color: #4a3700; }
+.role-chip.role-lca { background: #b8e0b8; border-color: #4a8a4a; color: #1d4d1d; }
+.role-chip.role-pairwise_lca { background: #d8f0d8; border-color: #6ea66e; color: #2e5d2e; }
+.role-chip.role-uiuc_sibling { background: #ffd9a8; border-color: #c08840; color: #5c3a17; }
+.role-chip.role-other_sibling { background: #f0d8b0; border-color: #b08850; color: #5c4017; }
+
+#sp-facts {
+  margin: 0 0 1rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 0.7rem;
+  row-gap: 0.25rem;
+  font-size: 0.9rem;
+}
+#sp-facts dt { color: var(--muted); }
+#sp-facts dd { margin: 0; }
+
+.links-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.link-btn {
+  display: block;
+  padding: 0.45rem 0.7rem;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: white;
+  color: var(--link);
+  font-size: 0.9rem;
+}
+.link-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
+.link-btn.primary {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.link-btn.primary:hover { background: #9a7522; }
+.link-btn.tertiary { color: var(--muted); font-size: 0.85rem; }
+
+.notes {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #444;
+  background: #f7f3e6;
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 0.7rem;
+  margin: 0 0 1rem;
+}
+
+#side-panel-content .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #ece8db;
+}
+#side-panel-content .actions button {
+  width: 100%;
+  text-align: left;
+}
+
+/* ─── SVG node interaction states ─────────────────────────────────── */
+
+#svg-host g.node {
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+#svg-host g.node:hover {
+  filter: brightness(1.05);
+}
+
+#svg-host g.node:focus-visible path,
+#svg-host g.node:focus-visible polygon,
+#svg-host g.node:focus-visible ellipse {
+  stroke: var(--accent) !important;
+  stroke-width: 3px !important;
+}
+
+#svg-host g.node.selected path,
+#svg-host g.node.selected polygon,
+#svg-host g.node.selected ellipse {
+  stroke: var(--accent) !important;
+  stroke-width: 4px !important;
+}
+
+#svg-host g.node.dimmed { opacity: 0.18; }
+#svg-host g.edge.dimmed { opacity: 0.12; }
+
+#svg-host g.node.on-path { opacity: 1; }
+#svg-host g.edge.on-path { opacity: 1; }
+#svg-host g.edge.on-path path { stroke: var(--accent) !important; stroke-width: 2.5px !important; }
+#svg-host g.edge.on-path polygon { fill: var(--accent) !important; stroke: var(--accent) !important; }
+
+#svg-host g.node.pulse path,
+#svg-host g.node.pulse polygon,
+#svg-host g.node.pulse ellipse {
+  animation: pulse 0.7s ease-out 1;
+}
+
+@keyframes pulse {
+  0%   { stroke-width: 4px; stroke: var(--accent); }
+  50%  { stroke-width: 10px; stroke: var(--accent); }
+  100% { stroke-width: 4px; stroke: var(--accent); }
+}
+
+/* ─── Legend ──────────────────────────────────────────────────────── */
+
+#legend {
+  background: var(--header-bg);
+  border-top: 1px solid var(--border);
+  padding: 1rem;
+  max-height: 38vh;
+  overflow-y: auto;
+}
+
+#legend h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  font-family: "Baskerville", Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  font-size: 0.85rem;
+}
+
+.legend-group h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.legend-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legend-group li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.1rem 0;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.swatch.role-focal_student { background: gold; }
+.swatch.role-primary_advisor,
+.swatch.role-famous { background: #ffe89a; }
+.swatch.role-committee { background: #cfe5f4; }
+.swatch.role-informal_committee { background: #def0f6; }
+.swatch.role-lca { background: #b8e0b8; border-style: double; border-width: 3px; }
+.swatch.role-pairwise_lca { background: #d8f0d8; }
+.swatch.role-uiuc_sibling { background: #ffd9a8; }
+.swatch.role-other_sibling { background: #f0d8b0; }
+
+.swatch-edge {
+  width: 1.4rem;
+  height: 4px;
+  border: none;
+  border-radius: 0;
+  background: #666;
+}
+.swatch-edge.edge-primary { background: #333; height: 5px; }
+.swatch-edge.edge-committee {
+  background: repeating-linear-gradient(to right, #666 0 4px, transparent 4px 8px);
+}
+
+/* ─── Mobile / narrow ─────────────────────────────────────────────── */
+
+@media (max-width: 800px) {
+  body { grid-template-rows: var(--header-h) 1fr; }
+  #app-main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 40vh;
+  }
+  #side-panel {
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+  #app-title { font-size: 1.1rem; max-width: 10rem; }
+  #header-actions button:not(#btn-legend) { display: none; }
+}
