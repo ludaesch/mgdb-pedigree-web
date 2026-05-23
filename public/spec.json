@@ -3,7 +3,7 @@
     "title": "Lan Li: Academic Pedigree",
     "subtitle": null,
     "edge_direction": "student_to_advisor",
-    "generated_at": "2026-05-23T05:18:56+00:00",
+    "generated_at": "2026-05-23T05:28:07+00:00",
     "source": null,
     "query": {
       "primary_advisor_pid": 63244,
@@ -548,7 +548,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 592,
       "domain": "philosophy",
-      "advisee_count": 196370
+      "advisee_count": 2
     },
     "n17409": {
       "name": "Heinz Hopf",
@@ -568,7 +568,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 100,
       "domain": "math",
-      "advisee_count": 6119
+      "advisee_count": 51
     },
     "n50689": {
       "name": "Wilfried Brauer",
@@ -589,7 +589,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 59,
       "domain": "informatics",
-      "advisee_count": 225
+      "advisee_count": 13
     },
     "n101893": {
       "name": "Johann Salomo Christoph Schweigger",
@@ -609,7 +609,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 225,
       "domain": "chemistry",
-      "advisee_count": 10131
+      "advisee_count": 3
     },
     "n125450": {
       "name": "Frans van Schooten, Jr.",
@@ -629,7 +629,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 390,
       "domain": "math",
-      "advisee_count": 147544
+      "advisee_count": 5
     },
     "n128012": {
       "name": "Rudolf Agricola",
@@ -649,7 +649,7 @@
       "distance_from_focal": 21,
       "temporal_distance": 547,
       "domain": "philosophy",
-      "advisee_count": 196315
+      "advisee_count": 2
     },
     "n143083": {
       "name": "Theodor Zwinger, Jr.",
@@ -668,7 +668,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 395,
       "domain": "medicine",
-      "advisee_count": 136497
+      "advisee_count": 1
     },
     "n125971": {
       "name": "Simon Paul Hilscher",
@@ -687,7 +687,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 321,
       "domain": "theology",
-      "advisee_count": 120610
+      "advisee_count": 1
     },
     "n131606": {
       "name": "Adrien Turnèbe",
@@ -707,7 +707,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 493,
       "domain": "philosophy",
-      "advisee_count": 186963
+      "advisee_count": 2
     },
     "n5655": {
       "name": "David Gordon Bourgin",
@@ -726,7 +726,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 99,
       "domain": "math",
-      "advisee_count": 1858
+      "advisee_count": 30
     },
     "n126489": {
       "name": "Jacobus (Jacob Harmensz.) Arminius",
@@ -746,7 +746,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 443,
       "domain": "theology",
-      "advisee_count": 154990
+      "advisee_count": 1
     },
     "n17946": {
       "name": "Gustav Peter Lejeune Dirichlet",
@@ -766,7 +766,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 198,
       "domain": "math",
-      "advisee_count": 75678
+      "advisee_count": 9
     },
     "n84507": {
       "name": "Vannevar Bush",
@@ -787,7 +787,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 109,
       "domain": "informatics",
-      "advisee_count": 3027
+      "advisee_count": 6
     },
     "n22560": {
       "name": "Kenneth Otto Kortanek",
@@ -807,7 +807,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 61,
       "domain": "math",
-      "advisee_count": 32
+      "advisee_count": 23
     },
     "n127011": {
       "name": "Johannes Hommel",
@@ -827,7 +827,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 482,
       "domain": "astronomy",
-      "advisee_count": 164127
+      "advisee_count": 2
     },
     "n127020": {
       "name": "Samuel Heyland",
@@ -846,7 +846,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 471,
       "domain": "theology",
-      "advisee_count": 135854
+      "advisee_count": 1
     },
     "n92718": {
       "name": "Sundaram Seshu",
@@ -866,7 +866,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 70,
       "domain": "physics",
-      "advisee_count": 986
+      "advisee_count": 4
     },
     "n128046": {
       "name": "Johann Pasch",
@@ -885,7 +885,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 342,
       "domain": "theology",
-      "advisee_count": 132920
+      "advisee_count": 1
     },
     "n125488": {
       "name": "Georg Wolffgang Wedel",
@@ -905,7 +905,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 358,
       "domain": "medicine",
-      "advisee_count": 120913
+      "advisee_count": 2
     },
     "n123957": {
       "name": "Ferdinand Christoph Oetinger",
@@ -925,7 +925,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 286,
       "domain": "theology",
-      "advisee_count": 14217
+      "advisee_count": 1
     },
     "n113719": {
       "name": "Ehrenfried Walter von Tschirnhaus",
@@ -946,7 +946,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 356,
       "domain": "polymath",
-      "advisee_count": 31268
+      "advisee_count": 1
     },
     "n60984": {
       "name": "Erhard Weigel",
@@ -966,7 +966,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 375,
       "domain": "math",
-      "advisee_count": 149059
+      "advisee_count": 15
     },
     "n60985": {
       "name": "Gottfried Wilhelm Leibniz",
@@ -987,7 +987,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 349,
       "domain": "polymath",
-      "advisee_count": 147537
+      "advisee_count": 2
     },
     "n128055": {
       "name": "Seymour Blair Hammond",
@@ -1006,7 +1006,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 67,
       "domain": "physics",
-      "advisee_count": 909
+      "advisee_count": 1
     },
     "n127039": {
       "name": "Philipp Apian",
@@ -1026,7 +1026,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 476,
       "domain": "math",
-      "advisee_count": 135854
+      "advisee_count": 1
     },
     "n123968": {
       "name": "Michael Alberti",
@@ -1046,7 +1046,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 322,
       "domain": "medicine",
-      "advisee_count": 14218
+      "advisee_count": 1
     },
     "n19524": {
       "name": "Ludwig Bieberbach",
@@ -1066,7 +1066,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 115,
       "domain": "math",
-      "advisee_count": 7254
+      "advisee_count": 28
     },
     "n123974": {
       "name": "Georg Balthasar Metzger",
@@ -1086,7 +1086,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 375,
       "domain": "philosophy",
-      "advisee_count": 134350
+      "advisee_count": 2
     },
     "n152647": {
       "name": "Balthasar Kaeuffelin",
@@ -1105,7 +1105,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 504,
       "domain": "theology",
-      "advisee_count": 136502
+      "advisee_count": 1
     },
     "n152648": {
       "name": "Jakob Beuerlin",
@@ -1125,7 +1125,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 474,
       "domain": "theology",
-      "advisee_count": 136501
+      "advisee_count": 1
     },
     "n123977": {
       "name": "Georg Ernst Stahl",
@@ -1145,7 +1145,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 341,
       "domain": "chemistry",
-      "advisee_count": 14219
+      "advisee_count": 1
     },
     "n127049": {
       "name": "Michael Maestlin",
@@ -1165,7 +1165,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 454,
       "domain": "astronomy",
-      "advisee_count": 135853
+      "advisee_count": 2
     },
     "n201288": {
       "name": "Gregory Chioniadis",
@@ -1185,7 +1185,7 @@
       "distance_from_focal": 23,
       "temporal_distance": 729,
       "domain": "astronomy",
-      "advisee_count": 196436
+      "advisee_count": 1
     },
     "n95822": {
       "name": "Wolfgang Wahlster",
@@ -1206,7 +1206,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 44,
       "domain": "informatics",
-      "advisee_count": 163
+      "advisee_count": 70
     },
     "n125006": {
       "name": "Adriaan van den Spieghel",
@@ -1226,7 +1226,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 422,
       "domain": "medicine",
-      "advisee_count": 163993
+      "advisee_count": 3
     },
     "n127061": {
       "name": "Valentin (Valentinus Otho) Otto",
@@ -1246,7 +1246,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 455,
       "domain": "math",
-      "advisee_count": 135851
+      "advisee_count": 1
     },
     "n92760": {
       "name": "Wan Hee Kim",
@@ -1265,7 +1265,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 69,
       "domain": "physics",
-      "advisee_count": 908
+      "advisee_count": 2
     },
     "n92761": {
       "name": "John Douglas Ryder",
@@ -1284,7 +1284,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 81,
       "domain": "physics",
-      "advisee_count": 988
+      "advisee_count": 1
     },
     "n129628": {
       "name": "Nikolaus Eglinger",
@@ -1304,7 +1304,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 365,
       "domain": "theology",
-      "advisee_count": 136493
+      "advisee_count": 1
     },
     "n82013": {
       "name": "Arthur Jay Bernstein",
@@ -1324,7 +1324,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 63,
       "domain": "informatics",
-      "advisee_count": 857
+      "advisee_count": 22
     },
     "n125023": {
       "name": "Adolph Vorstius",
@@ -1344,7 +1344,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 403,
       "domain": "medicine",
-      "advisee_count": 154940
+      "advisee_count": 1
     },
     "n44128": {
       "name": "Jeffrey David Ullman",
@@ -1366,7 +1366,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 59,
       "domain": "informatics",
-      "advisee_count": 704
+      "advisee_count": 56
     },
     "n124000": {
       "name": "Rudolf Wilhelm Krause",
@@ -1385,7 +1385,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 354,
       "domain": "medicine",
-      "advisee_count": 122512
+      "advisee_count": 2
     },
     "n128097": {
       "name": "Georg Calixt",
@@ -1405,7 +1405,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 418,
       "domain": "theology",
-      "advisee_count": 135831
+      "advisee_count": 2
     },
     "n128104": {
       "name": "Johannes Caselius",
@@ -1424,7 +1424,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 459,
       "domain": "philosophy",
-      "advisee_count": 135832
+      "advisee_count": 1
     },
     "n128105": {
       "name": "Cornelius Martini",
@@ -1443,7 +1443,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 433,
       "domain": "theology",
-      "advisee_count": 138149
+      "advisee_count": 3
     },
     "n126571": {
       "name": "Rutger Rescius",
@@ -1462,7 +1462,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 512,
       "domain": "philosophy",
-      "advisee_count": 196247
+      "advisee_count": 1
     },
     "n131580": {
       "name": "Wallace L. Cassell",
@@ -1481,7 +1481,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 97,
       "domain": "physics",
-      "advisee_count": 989
+      "advisee_count": 1
     },
     "n35953": {
       "name": "August Ferdinand Möbius",
@@ -1501,7 +1501,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 210,
       "domain": "math",
-      "advisee_count": 8172
+      "advisee_count": 5
     },
     "n27250": {
       "name": "Otto Wilhelm Fiedler",
@@ -1521,7 +1521,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 167,
       "domain": "math",
-      "advisee_count": 8157
+      "advisee_count": 2
     },
     "n82034": {
       "name": "Archie Charles McKellar",
@@ -1541,7 +1541,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 60,
       "domain": "informatics",
-      "advisee_count": 716
+      "advisee_count": 4
     },
     "n127092": {
       "name": "Valentin Thau",
@@ -1560,7 +1560,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 470,
       "domain": "math",
-      "advisee_count": 164125
+      "advisee_count": 2
     },
     "n132725": {
       "name": "Pieter van Schooten",
@@ -1579,7 +1579,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 370,
       "domain": "math",
-      "advisee_count": 31269
+      "advisee_count": 1
     },
     "n127606": {
       "name": "Ambrosius Rhodius",
@@ -1598,7 +1598,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 425,
       "domain": "theology",
-      "advisee_count": 135849
+      "advisee_count": 4
     },
     "n125047": {
       "name": "Petrus (Pierre de La Ramée) Ramus",
@@ -1618,7 +1618,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 489,
       "domain": "philosophy",
-      "advisee_count": 164128
+      "advisee_count": 3
     },
     "n125048": {
       "name": "Johannes Nicolaus Stupanus",
@@ -1638,7 +1638,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 456,
       "domain": "medicine",
-      "advisee_count": 134352
+      "advisee_count": 1
     },
     "n125561": {
       "name": "Christiaan Huygens",
@@ -1658,7 +1658,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 370,
       "domain": "astronomy",
-      "advisee_count": 147538
+      "advisee_count": 1
     },
     "n127098": {
       "name": "Johannes Kepler",
@@ -1678,7 +1678,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 434,
       "domain": "astronomy",
-      "advisee_count": 135851
+      "advisee_count": 2
     },
     "n128122": {
       "name": "Duncan Liddel",
@@ -1698,7 +1698,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 429,
       "domain": "astronomy",
-      "advisee_count": 164104
+      "advisee_count": 3
     },
     "n146035": {
       "name": "Christian Benedict Michaelis",
@@ -1717,7 +1717,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 319,
       "domain": "theology",
-      "advisee_count": 120616
+      "advisee_count": 2
     },
     "n157307": {
       "name": "Erhard Pfautz",
@@ -1736,7 +1736,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 363,
       "domain": "philosophy",
-      "advisee_count": 31270
+      "advisee_count": 1
     },
     "n157308": {
       "name": "Christoph Pfautz",
@@ -1755,7 +1755,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 357,
       "domain": "theology",
-      "advisee_count": 31269
+      "advisee_count": 2
     },
     "n197761": {
       "name": "Frederick Samuel Dellenbaugh, Jr.",
@@ -1774,7 +1774,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 99,
       "domain": "physics",
-      "advisee_count": 911
+      "advisee_count": 1
     },
     "n7298": {
       "name": "David Hilbert",
@@ -1795,7 +1795,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 140,
       "domain": "math",
-      "advisee_count": 37343
+      "advisee_count": 75
     },
     "n127107": {
       "name": "Johannes Stöffler",
@@ -1815,7 +1815,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 549,
       "domain": "astronomy",
-      "advisee_count": 196216
+      "advisee_count": 2
     },
     "n127110": {
       "name": "Michael Beuther",
@@ -1834,7 +1834,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 483,
       "domain": "theology",
-      "advisee_count": 135855
+      "advisee_count": 1
     },
     "n126087": {
       "name": "Georg von Peuerbach",
@@ -1854,7 +1854,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 585,
       "domain": "astronomy",
-      "advisee_count": 180319
+      "advisee_count": 1
     },
     "n65161": {
       "name": "Georg Christoph Lichtenberg",
@@ -1874,7 +1874,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 260,
       "domain": "polymath",
-      "advisee_count": 79998
+      "advisee_count": 6
     },
     "n127636": {
       "name": "Johann Friedrich Christ",
@@ -1893,7 +1893,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 298,
       "domain": "philosophy",
-      "advisee_count": 7440
+      "advisee_count": 1
     },
     "n82071": {
       "name": "David E. Maier",
@@ -1915,7 +1915,7 @@
       "distance_from_focal": 2,
       "temporal_distance": 47,
       "domain": "informatics",
-      "advisee_count": 23
+      "advisee_count": 21
     },
     "n126109": {
       "name": "Johannes Müller Regiomontanus",
@@ -1935,7 +1935,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 568,
       "domain": "math",
-      "advisee_count": 180318
+      "advisee_count": 1
     },
     "n127646": {
       "name": "Johann Franz Buddeus",
@@ -1955,7 +1955,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 330,
       "domain": "theology",
-      "advisee_count": 7490
+      "advisee_count": 2
     },
     "n126111": {
       "name": "Daniel Sennert",
@@ -1975,7 +1975,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 431,
       "domain": "chemistry",
-      "advisee_count": 135229
+      "advisee_count": 1
     },
     "n126112": {
       "name": "Domenico Maria Novara da Ferrara",
@@ -1995,7 +1995,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 542,
       "domain": "astronomy",
-      "advisee_count": 180317
+      "advisee_count": 1
     },
     "n126113": {
       "name": "Leonhard (Leonard Vitreatoris z Dobczyc) von Dobschütz",
@@ -2014,7 +2014,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 536,
       "domain": "theology",
-      "advisee_count": 180317
+      "advisee_count": 1
     },
     "n53410": {
       "name": "Johann Bernoulli",
@@ -2034,7 +2034,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 335,
       "domain": "math",
-      "advisee_count": 136492
+      "advisee_count": 5
     },
     "n127647": {
       "name": "Johann Matthias Gesner",
@@ -2054,7 +2054,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 310,
       "domain": "philosophy",
-      "advisee_count": 7488
+      "advisee_count": 1
     },
     "n21668": {
       "name": "Günter Hotz",
@@ -2075,7 +2075,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 67,
       "domain": "informatics",
-      "advisee_count": 830
+      "advisee_count": 54
     },
     "n131235": {
       "name": "François Vatable",
@@ -2095,7 +2095,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 514,
       "domain": "theology",
-      "advisee_count": 123565
+      "advisee_count": 1
     },
     "n131236": {
       "name": "Paul (Paul Büchlein) Fagius",
@@ -2115,7 +2115,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 488,
       "domain": "theology",
-      "advisee_count": 123565
+      "advisee_count": 1
     },
     "n126119": {
       "name": "Johann August Ernesti",
@@ -2135,7 +2135,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 269,
       "domain": "theology",
-      "advisee_count": 7487
+      "advisee_count": 3
     },
     "n54440": {
       "name": "Jacob Bernoulli",
@@ -2155,7 +2155,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 341,
       "domain": "math",
-      "advisee_count": 136495
+      "advisee_count": 3
     },
     "n126120": {
       "name": "Johann August Bach",
@@ -2174,7 +2174,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 281,
       "domain": "philosophy",
-      "advisee_count": 7439
+      "advisee_count": 1
     },
     "n143011": {
       "name": "Nicolas Malebranche",
@@ -2194,7 +2194,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 353,
       "domain": "philosophy",
-      "advisee_count": 136499
+      "advisee_count": 2
     },
     "n126124": {
       "name": "Christian Gottlob Heyne",
@@ -2214,7 +2214,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 273,
       "domain": "philosophy",
-      "advisee_count": 7438
+      "advisee_count": 3
     },
     "n129708": {
       "name": "Johann Caspar Bauhin",
@@ -2234,7 +2234,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 376,
       "domain": "biology",
-      "advisee_count": 136494
+      "advisee_count": 1
     },
     "n47793": {
       "name": "Christian M. von Wolff",
@@ -2254,7 +2254,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 322,
       "domain": "philosophy",
-      "advisee_count": 31267
+      "advisee_count": 5
     },
     "n127668": {
       "name": "Johann Georg Büsch",
@@ -2274,7 +2274,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 272,
       "domain": "informatics",
-      "advisee_count": 120605
+      "advisee_count": 1
     },
     "n125109": {
       "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
@@ -2294,7 +2294,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 466,
       "domain": "medicine",
-      "advisee_count": 164106
+      "advisee_count": 5
     },
     "n127671": {
       "name": "Karl Gottlieb Knorre",
@@ -2313,7 +2313,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 304,
       "domain": "medicine",
-      "advisee_count": 7441
+      "advisee_count": 1
     },
     "n7865": {
       "name": "H. A. (Hubert Anson) Newton",
@@ -2333,7 +2333,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 175,
       "domain": "math",
-      "advisee_count": 28194
+      "advisee_count": 4
     },
     "n38586": {
       "name": "Leonhard Euler",
@@ -2354,7 +2354,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 299,
       "domain": "math",
-      "advisee_count": 136280
+      "advisee_count": 6
     },
     "n127166": {
       "name": "Niccolò Leoniceno",
@@ -2374,7 +2374,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 572,
       "domain": "medicine",
-      "advisee_count": 164157
+      "advisee_count": 2
     },
     "n58560": {
       "name": "Wolffried Stucky",
@@ -2394,7 +2394,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 55,
       "domain": "informatics",
-      "advisee_count": 107
+      "advisee_count": 46
     },
     "n7361": {
       "name": "Erhard Schmidt",
@@ -2414,7 +2414,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 120,
       "domain": "math",
-      "advisee_count": 14619
+      "advisee_count": 36
     },
     "n76481": {
       "name": "Elias Rudolph Camerarius, Sr.",
@@ -2434,7 +2434,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 362,
       "domain": "polymath",
-      "advisee_count": 134349
+      "advisee_count": 2
     },
     "n76482": {
       "name": "Elias Rudolph Camerarius, Jr.",
@@ -2453,7 +2453,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 334,
       "domain": "medicine",
-      "advisee_count": 14220
+      "advisee_count": 1
     },
     "n76483": {
       "name": "Burchard David Mauchart",
@@ -2473,7 +2473,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 303,
       "domain": "math",
-      "advisee_count": 14219
+      "advisee_count": 1
     },
     "n76484": {
       "name": "Phillip Friedrich Gmelin",
@@ -2493,7 +2493,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 283,
       "domain": "chemistry",
-      "advisee_count": 14218
+      "advisee_count": 2
     },
     "n76485": {
       "name": "Johann Friedrich Gmelin",
@@ -2513,7 +2513,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 257,
       "domain": "biology",
-      "advisee_count": 14216
+      "advisee_count": 3
     },
     "n76486": {
       "name": "Georg Friedrich Hildebrandt",
@@ -2533,7 +2533,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 242,
       "domain": "medicine",
-      "advisee_count": 10132
+      "advisee_count": 1
     },
     "n125125": {
       "name": "Emmanuel Stupanus",
@@ -2554,7 +2554,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 412,
       "domain": "medicine",
-      "advisee_count": 188286
+      "advisee_count": 3
     },
     "n126659": {
       "name": "Ulrich Zasius",
@@ -2574,7 +2574,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 524,
       "domain": "philosophy",
-      "advisee_count": 196312
+      "advisee_count": 2
     },
     "n130248": {
       "name": "Petrus Ryff",
@@ -2594,7 +2594,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 441,
       "domain": "medicine",
-      "advisee_count": 188287
+      "advisee_count": 1
     },
     "n126667": {
       "name": "Jakob Milich",
@@ -2614,7 +2614,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 501,
       "domain": "math",
-      "advisee_count": 196253
+      "advisee_count": 1
     },
     "n143044": {
       "name": "Jacob Andreae",
@@ -2634,7 +2634,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 472,
       "domain": "theology",
-      "advisee_count": 136500
+      "advisee_count": 1
     },
     "n127181": {
       "name": "Girolamo (Hieronymus Aleander) Aleandro",
@@ -2654,7 +2654,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 526,
       "domain": "philosophy",
-      "advisee_count": 196317
+      "advisee_count": 2
     },
     "n143045": {
       "name": "Johann Jacob Grynaeus",
@@ -2674,7 +2674,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 461,
       "domain": "theology",
-      "advisee_count": 136499
+      "advisee_count": 1
     },
     "n18642": {
       "name": "David Leigh Donoho",
@@ -2695,7 +2695,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 42,
       "domain": "statistics",
-      "advisee_count": 251
+      "advisee_count": 24
     },
     "n7379": {
       "name": "Erich Hecke",
@@ -2715,7 +2715,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 115,
       "domain": "math",
-      "advisee_count": 4423
+      "advisee_count": 14
     },
     "n63188": {
       "name": "Georg Lausen",
@@ -2736,7 +2736,7 @@
       "distance_from_focal": 2,
       "temporal_distance": 43,
       "domain": "physics",
-      "advisee_count": 32
+      "advisee_count": 13
     },
     "n125142": {
       "name": "Gabriele Falloppio",
@@ -2756,7 +2756,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 478,
       "domain": "medicine",
-      "advisee_count": 164107
+      "advisee_count": 1
     },
     "n134873": {
       "name": "Vittorino da Feltre",
@@ -2776,7 +2776,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 609,
       "domain": "philosophy",
-      "advisee_count": 196374
+      "advisee_count": 2
     },
     "n125658": {
       "name": "Nicolas (Nicolaes Cleynaerts) Clénard",
@@ -2796,7 +2796,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 510,
       "domain": "philosophy",
-      "advisee_count": 164156
+      "advisee_count": 1
     },
     "n125148": {
       "name": "Theodor Zwinger",
@@ -2816,7 +2816,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 466,
       "domain": "polymath",
-      "advisee_count": 164108
+      "advisee_count": 2
     },
     "n57566": {
       "name": "Ferdinand Gonseth",
@@ -2836,7 +2836,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 110,
       "domain": "math",
-      "advisee_count": 2400
+      "advisee_count": 18
     },
     "n125665": {
       "name": "Johannes (Johann Sturm) Sturmius",
@@ -2856,7 +2856,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 498,
       "domain": "philosophy",
-      "advisee_count": 164155
+      "advisee_count": 4
     },
     "n125154": {
       "name": "Werner Rolfinck",
@@ -2876,7 +2876,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 400,
       "domain": "medicine",
-      "advisee_count": 135228
+      "advisee_count": 4
     },
     "n126177": {
       "name": "Nicolaus (Mikołaj Kopernik) Copernicus",
@@ -2896,7 +2896,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 526,
       "domain": "astronomy",
-      "advisee_count": 180316
+      "advisee_count": 1
     },
     "n125159": {
       "name": "Immanuel Tremellius",
@@ -2916,7 +2916,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 464,
       "domain": "theology",
-      "advisee_count": 188372
+      "advisee_count": 1
     },
     "n7401": {
       "name": "C. Felix (Christian) Klein",
@@ -2936,7 +2936,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 157,
       "domain": "math",
-      "advisee_count": 71733
+      "advisee_count": 68
     },
     "n234": {
       "name": "Wolfgang Krull",
@@ -2956,7 +2956,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 103,
       "domain": "math",
-      "advisee_count": 730
+      "advisee_count": 41
     },
     "n7402": {
       "name": "Julius Plücker",
@@ -2976,7 +2976,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 202,
       "domain": "physics",
-      "advisee_count": 77025
+      "advisee_count": 4
     },
     "n7404": {
       "name": "C. L. Ferdinand (Carl Louis) Lindemann",
@@ -2996,7 +2996,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 152,
       "domain": "math",
-      "advisee_count": 54636
+      "advisee_count": 48
     },
     "n7405": {
       "name": "Adolf Weiler",
@@ -3016,7 +3016,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 152,
       "domain": "math",
-      "advisee_count": 2414
+      "advisee_count": 4
     },
     "n108266": {
       "name": "Jean Le Rond d'Alembert",
@@ -3036,7 +3036,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 290,
       "domain": "math",
-      "advisee_count": 131187
+      "advisee_count": 1
     },
     "n127724": {
       "name": "Christoph Nottnagel",
@@ -3055,7 +3055,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 391,
       "domain": "medicine",
-      "advisee_count": 135841
+      "advisee_count": 12
     },
     "n143082": {
       "name": "Sebastian Beck",
@@ -3074,7 +3074,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 415,
       "domain": "theology",
-      "advisee_count": 136498
+      "advisee_count": 1
     },
     "n111345": {
       "name": "Robert Peer Siskind",
@@ -3093,7 +3093,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 100,
       "domain": "physics",
-      "advisee_count": 238
+      "advisee_count": 1
     },
     "n125681": {
       "name": "Jacobus (Jacques Masson) Latomus",
@@ -3113,7 +3113,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 506,
       "domain": "theology",
-      "advisee_count": 164157
+      "advisee_count": 1
     },
     "n21235": {
       "name": "Otto Mencke",
@@ -3133,7 +3133,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 360,
       "domain": "philosophy",
-      "advisee_count": 132917
+      "advisee_count": 2
     },
     "n125682": {
       "name": "Jan (Johannes Campensis) van Campen",
@@ -3153,7 +3153,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 506,
       "domain": "philosophy",
-      "advisee_count": 164157
+      "advisee_count": 1
     },
     "n143084": {
       "name": "Peter Werenfels",
@@ -3173,7 +3173,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 376,
       "domain": "theology",
-      "advisee_count": 136496
+      "advisee_count": 1
     },
     "n127734": {
       "name": "Nicolaus Zapf",
@@ -3192,7 +3192,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 396,
       "domain": "theology",
-      "advisee_count": 135830
+      "advisee_count": 1
     },
     "n5879": {
       "name": "George David Birkhoff",
@@ -3212,7 +3212,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 118,
       "domain": "math",
-      "advisee_count": 11343
+      "advisee_count": 46
     },
     "n125181": {
       "name": "Rudolph (Snel van Royen) Snellius",
@@ -3232,7 +3232,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 453,
       "domain": "math",
-      "advisee_count": 188371
+      "advisee_count": 4
     },
     "n141571": {
       "name": "Thomas Cranmer",
@@ -3252,7 +3252,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 499,
       "domain": "theology",
-      "advisee_count": 188373
+      "advisee_count": 1
     },
     "n126724": {
       "name": "Bonifazius Erasmi",
@@ -3271,7 +3271,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 516,
       "domain": "theology",
-      "advisee_count": 180317
+      "advisee_count": 1
     },
     "n57094": {
       "name": "Louis Kollros",
@@ -3291,7 +3291,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 120,
       "domain": "math",
-      "advisee_count": 2416
+      "advisee_count": 19
     },
     "n108295": {
       "name": "Pierre-Simon Laplace",
@@ -3311,7 +3311,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 256,
       "domain": "math",
-      "advisee_count": 131186
+      "advisee_count": 1
     },
     "n126730": {
       "name": "Johannes Volmar",
@@ -3330,7 +3330,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 510,
       "domain": "math",
-      "advisee_count": 180316
+      "advisee_count": 1
     },
     "n127245": {
       "name": "Antonio Musa Brasavola",
@@ -3350,7 +3350,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 505,
       "domain": "medicine",
-      "advisee_count": 164108
+      "advisee_count": 1
     },
     "n143630": {
       "name": "Friedrich Leibniz",
@@ -3370,7 +3370,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 403,
       "domain": "philosophy",
-      "advisee_count": 179196
+      "advisee_count": 1
     },
     "n126736": {
       "name": "Erasmus Reinhold",
@@ -3390,7 +3390,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 490,
       "domain": "astronomy",
-      "advisee_count": 196252
+      "advisee_count": 7
     },
     "n134931": {
       "name": "Guarino da Verona",
@@ -3410,7 +3410,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 617,
       "domain": "philosophy",
-      "advisee_count": 196375
+      "advisee_count": 1
     },
     "n127252": {
       "name": "Salomon Alberti",
@@ -3430,7 +3430,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 451,
       "domain": "medicine",
-      "advisee_count": 135853
+      "advisee_count": 2
     },
     "n35094": {
       "name": "Wallace Clement Sabine",
@@ -3450,7 +3450,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 137,
       "domain": "physics",
-      "advisee_count": 2914
+      "advisee_count": 1
     },
     "n182045": {
       "name": "Simon Grynaeus",
@@ -3470,7 +3470,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 502,
       "domain": "math",
-      "advisee_count": 136501
+      "advisee_count": 1
     },
     "n127264": {
       "name": "Heinrich von Langenstein",
@@ -3490,7 +3490,7 @@
       "distance_from_focal": 22,
       "temporal_distance": 650,
       "domain": "theology",
-      "advisee_count": 180321
+      "advisee_count": 1
     },
     "n177440": {
       "name": "Johann Friedrich Rhetius",
@@ -3509,7 +3509,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 373,
       "domain": "theology",
-      "advisee_count": 12237
+      "advisee_count": 1
     },
     "n806": {
       "name": "E. H. (Eliakim Hastings) Moore",
@@ -3529,7 +3529,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 140,
       "domain": "math",
-      "advisee_count": 28124
+      "advisee_count": 31
     },
     "n95530": {
       "name": "George Sylvester Morris",
@@ -3549,7 +3549,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 157,
       "domain": "philosophy",
-      "advisee_count": 2725
+      "advisee_count": 1
     },
     "n127275": {
       "name": "Andreas Schato",
@@ -3569,7 +3569,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 463,
       "domain": "theology",
-      "advisee_count": 135852
+      "advisee_count": 2
     },
     "n145707": {
       "name": "Constantijn l’Empereur van Oppyck",
@@ -3589,7 +3589,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 408,
       "domain": "philosophy",
-      "advisee_count": 120627
+      "advisee_count": 1
     },
     "n145708": {
       "name": "Hiob Ludolf",
@@ -3609,7 +3609,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 379,
       "domain": "theology",
-      "advisee_count": 120626
+      "advisee_count": 1
     },
     "n127278": {
       "name": "Jan Jessenius",
@@ -3629,7 +3629,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 434,
       "domain": "medicine",
-      "advisee_count": 135230
+      "advisee_count": 1
     },
     "n127790": {
       "name": "Moritz Valentin Steinmetz",
@@ -3648,7 +3648,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 475,
       "domain": "theology",
-      "advisee_count": 180281
+      "advisee_count": 2
     },
     "n105776": {
       "name": "Donald Cary Williams",
@@ -3668,7 +3668,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 97,
       "domain": "philosophy",
-      "advisee_count": 22
+      "advisee_count": 2
     },
     "n105777": {
       "name": "Clarence Irving Lewis",
@@ -3688,7 +3688,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 115,
       "domain": "philosophy",
-      "advisee_count": 12
+      "advisee_count": 2
     },
     "n105778": {
       "name": "Roderick Milton Chisholm",
@@ -3709,7 +3709,7 @@
       "distance_from_focal": 2,
       "temporal_distance": 83,
       "domain": "philosophy",
-      "advisee_count": 6
+      "advisee_count": 3
     },
     "n114992": {
       "name": "Gilbert Jacchaeus",
@@ -3729,7 +3729,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 414,
       "domain": "medicine",
-      "advisee_count": 154989
+      "advisee_count": 3
     },
     "n128305": {
       "name": "John Craig",
@@ -3749,7 +3749,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 445,
       "domain": "medicine",
-      "advisee_count": 164105
+      "advisee_count": 1
     },
     "n191279": {
       "name": "Anton Bernhard Lauterbach",
@@ -3768,7 +3768,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 309,
       "domain": "theology",
-      "advisee_count": 120914
+      "advisee_count": 5
     },
     "n18230": {
       "name": "Johann Friedrich Pfaff",
@@ -3788,7 +3788,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 239,
       "domain": "math",
-      "advisee_count": 120602
+      "advisee_count": 6
     },
     "n18231": {
       "name": "Carl Friedrich Gauß",
@@ -3808,7 +3808,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 226,
       "domain": "math",
-      "advisee_count": 107167
+      "advisee_count": 16
     },
     "n184631": {
       "name": "Theodore Metochites",
@@ -3828,7 +3828,7 @@
       "distance_from_focal": 22,
       "temporal_distance": 710,
       "domain": "polymath",
-      "advisee_count": 196434
+      "advisee_count": 2
     },
     "n119097": {
       "name": "Gemma (Jemme Reinerszoon) Frisius",
@@ -3848,7 +3848,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 496,
       "domain": "polymath",
-      "advisee_count": 164116
+      "advisee_count": 4
     },
     "n127801": {
       "name": "Aegidius Strauch",
@@ -3867,7 +3867,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 392,
       "domain": "theology",
-      "advisee_count": 135829
+      "advisee_count": 1
     },
     "n57659": {
       "name": "Johann Tobias Mayer",
@@ -3887,7 +3887,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 252,
       "domain": "astronomy",
-      "advisee_count": 29005
+      "advisee_count": 4
     },
     "n127803": {
       "name": "Johann Peter von Ludewig",
@@ -3906,7 +3906,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 335,
       "domain": "philosophy",
-      "advisee_count": 7442
+      "advisee_count": 1
     },
     "n108349": {
       "name": "Victoria Stodden",
@@ -3946,7 +3946,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 427,
       "domain": "philosophy",
-      "advisee_count": 138152
+      "advisee_count": 1
     },
     "n125760": {
       "name": "Johann (Johannes Kapnion) Reuchlin",
@@ -3966,7 +3966,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 544,
       "domain": "philosophy",
-      "advisee_count": 196247
+      "advisee_count": 3
     },
     "n35141": {
       "name": "Karl Reinhold",
@@ -3986,7 +3986,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 238,
       "domain": "philosophy",
-      "advisee_count": 4695
+      "advisee_count": 1
     },
     "n57670": {
       "name": "Christian August Hausen",
@@ -4006,7 +4006,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 312,
       "domain": "physics",
-      "advisee_count": 132914
+      "advisee_count": 4
     },
     "n131398": {
       "name": "Jacques (Jacobus Faber) Lefèvre d'Étaples",
@@ -4026,7 +4026,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 545,
       "domain": "philosophy",
-      "advisee_count": 146458
+      "advisee_count": 2
     },
     "n20296": {
       "name": "Robert W. Berger",
@@ -4047,7 +4047,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 67,
       "domain": "math",
-      "advisee_count": 146
+      "advisee_count": 11
     },
     "n80712": {
       "name": "Lois Marie Lundberg Delcambre",
@@ -4067,7 +4067,7 @@
       "distance_from_focal": 2,
       "temporal_distance": 43,
       "domain": "informatics",
-      "advisee_count": 24
+      "advisee_count": 17
     },
     "n131399": {
       "name": "Wolfgang Fabricius Capito",
@@ -4087,7 +4087,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 510,
       "domain": "theology",
-      "advisee_count": 161214
+      "advisee_count": 2
     },
     "n152901": {
       "name": "Marco Musuro",
@@ -4107,7 +4107,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 539,
       "domain": "philosophy",
-      "advisee_count": 164156
+      "advisee_count": 1
     },
     "n152903": {
       "name": "Pietro Pomponazzi",
@@ -4127,7 +4127,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 538,
       "domain": "philosophy",
-      "advisee_count": 164157
+      "advisee_count": 2
     },
     "n152906": {
       "name": "Bassiano Landi",
@@ -4146,7 +4146,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 483,
       "domain": "medicine",
-      "advisee_count": 164109
+      "advisee_count": 1
     },
     "n182088": {
       "name": "Johann Jakob von Brunn",
@@ -4165,7 +4165,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 410,
       "domain": "medicine",
-      "advisee_count": 134351
+      "advisee_count": 1
     },
     "n182089": {
       "name": "Gottfried Möbius",
@@ -4184,7 +4184,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 385,
       "domain": "medicine",
-      "advisee_count": 134351
+      "advisee_count": 1
     },
     "n182090": {
       "name": "Felix Plater",
@@ -4204,7 +4204,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 468,
       "domain": "medicine",
-      "advisee_count": 188288
+      "advisee_count": 1
     },
     "n182092": {
       "name": "Simon Sulzer",
@@ -4224,7 +4224,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 493,
       "domain": "theology",
-      "advisee_count": 136500
+      "advisee_count": 1
     },
     "n24410": {
       "name": "Josiah Royce",
@@ -4244,7 +4244,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 147,
       "domain": "philosophy",
-      "advisee_count": 2724
+      "advisee_count": 5
     },
     "n128348": {
       "name": "Paul Wittich",
@@ -4264,7 +4264,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 459,
       "domain": "astronomy",
-      "advisee_count": 164105
+      "advisee_count": 1
     },
     "n144220": {
       "name": "Christoph Meurer",
@@ -4283,7 +4283,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 443,
       "domain": "theology",
-      "advisee_count": 149061
+      "advisee_count": 1
     },
     "n144221": {
       "name": "Philipp Müller",
@@ -4302,7 +4302,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 421,
       "domain": "math",
-      "advisee_count": 149060
+      "advisee_count": 1
     },
     "n130913": {
       "name": "Johannes (van den Driesche) Drusius",
@@ -4322,7 +4322,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 453,
       "domain": "philosophy",
-      "advisee_count": 123563
+      "advisee_count": 2
     },
     "n127848": {
       "name": "Jacobus Martini",
@@ -4342,7 +4342,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 429,
       "domain": "theology",
-      "advisee_count": 138144
+      "advisee_count": 5
     },
     "n145770": {
       "name": "Johann Heinrich Michaelis",
@@ -4361,7 +4361,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 326,
       "domain": "theology",
-      "advisee_count": 120625
+      "advisee_count": 2
     },
     "n126827": {
       "name": "Georg Joachim von Leuchen Rheticus",
@@ -4381,7 +4381,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 490,
       "domain": "astronomy",
-      "advisee_count": 180315
+      "advisee_count": 4
     },
     "n60782": {
       "name": "Johann Andreas Segner",
@@ -4401,7 +4401,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 291,
       "domain": "physics",
-      "advisee_count": 120609
+      "advisee_count": 4
     },
     "n22385": {
       "name": "Edwin Crawford Kemble",
@@ -4421,7 +4421,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 108,
       "domain": "physics",
-      "advisee_count": 2322
+      "advisee_count": 3
     },
     "n169330": {
       "name": "Steven Freeman, Jr.",
@@ -4440,7 +4440,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 99,
       "domain": "physics",
-      "advisee_count": 910
+      "advisee_count": 1
     },
     "n26995": {
       "name": "Michel Chasles",
@@ -4460,7 +4460,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 211,
       "domain": "math",
-      "advisee_count": 53133
+      "advisee_count": 3
     },
     "n131444": {
       "name": "Johannes Argyropoulos",
@@ -4480,7 +4480,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 581,
       "domain": "philosophy",
-      "advisee_count": 196352
+      "advisee_count": 4
     },
     "n125302": {
       "name": "Willebrord (Snel van Royen) Snellius",
@@ -4500,7 +4500,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 418,
       "domain": "physics",
-      "advisee_count": 168571
+      "advisee_count": 1
     },
     "n119159": {
       "name": "Johannes Winter von Andernach",
@@ -4520,7 +4520,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 493,
       "domain": "medicine",
-      "advisee_count": 196246
+      "advisee_count": 4
     },
     "n125303": {
       "name": "Matteo Realdo (Renaldus Columbus) Colombo",
@@ -4540,7 +4540,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 481,
       "domain": "medicine",
-      "advisee_count": 164108
+      "advisee_count": 1
     },
     "n127864": {
       "name": "Nikolaus Selnecker",
@@ -4560,7 +4560,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 455,
       "domain": "theology",
-      "advisee_count": 135835
+      "advisee_count": 1
     },
     "n131447": {
       "name": "Scipione Fortiguerra",
@@ -4579,7 +4579,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 532,
       "domain": "philosophy",
-      "advisee_count": 196318
+      "advisee_count": 1
     },
     "n44413": {
       "name": "Marcel Hans Grossmann",
@@ -4599,7 +4599,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 123,
       "domain": "math",
-      "advisee_count": 2410
+      "advisee_count": 10
     },
     "n60803": {
       "name": "Friedrich Adolf Trendelenburg",
@@ -4619,7 +4619,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 199,
       "domain": "philosophy",
-      "advisee_count": 4694
+      "advisee_count": 7
     },
     "n208259": {
       "name": "Siegmund Jakob Baumgarten",
@@ -4639,7 +4639,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 299,
       "domain": "theology",
-      "advisee_count": 120610
+      "advisee_count": 2
     },
     "n79749": {
       "name": "Percy Williams Bridgman",
@@ -4659,7 +4659,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 117,
       "domain": "physics",
-      "advisee_count": 2913
+      "advisee_count": 2
     },
     "n132487": {
       "name": "Joseph Lovering",
@@ -4679,7 +4679,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 192,
       "domain": "physics",
-      "advisee_count": 4519
+      "advisee_count": 1
     },
     "n119178": {
       "name": "Andreas (Andries van Wesel) Vesalius",
@@ -4699,7 +4699,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 488,
       "domain": "medicine",
-      "advisee_count": 164109
+      "advisee_count": 1
     },
     "n148882": {
       "name": "Gaetano da Thiene",
@@ -4719,7 +4719,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 521,
       "domain": "philosophy",
-      "advisee_count": 164162
+      "advisee_count": 2
     },
     "n15252": {
       "name": "Kurt Reidemeister",
@@ -4739,7 +4739,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 104,
       "domain": "math",
-      "advisee_count": 901
+      "advisee_count": 7
     },
     "n125846": {
       "name": "Johann Adolph Wedel",
@@ -4759,7 +4759,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 331,
       "domain": "medicine",
-      "advisee_count": 120910
+      "advisee_count": 1
     },
     "n61850": {
       "name": "Gustav Conrad Bauer",
@@ -4779,7 +4779,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 183,
       "domain": "chemistry",
-      "advisee_count": 3427
+      "advisee_count": 34
     },
     "n126875": {
       "name": "Caspar Peucer",
@@ -4799,7 +4799,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 480,
       "domain": "polymath",
-      "advisee_count": 135861
+      "advisee_count": 3
     },
     "n127898": {
       "name": "Sethus Calvisius",
@@ -4819,7 +4819,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 443,
       "domain": "astronomy",
-      "advisee_count": 135834
+      "advisee_count": 1
     },
     "n98213": {
       "name": "Allen Lee Soyster",
@@ -4839,7 +4839,7 @@
       "distance_from_focal": 3,
       "temporal_distance": 52,
       "domain": "math",
-      "advisee_count": 7
+      "advisee_count": 1
     },
     "n126887": {
       "name": "Johannes von Gmunden",
@@ -4859,7 +4859,7 @@
       "distance_from_focal": 21,
       "temporal_distance": 619,
       "domain": "astronomy",
-      "advisee_count": 180320
+      "advisee_count": 1
     },
     "n106921": {
       "name": "Immanuel Kant",
@@ -4880,7 +4880,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 255,
       "domain": "philosophy",
-      "advisee_count": 10085
+      "advisee_count": 5
     },
     "n106922": {
       "name": "Martin Knutzen",
@@ -4900,7 +4900,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 293,
       "domain": "philosophy",
-      "advisee_count": 10086
+      "advisee_count": 1
     },
     "n128938": {
       "name": "Rudolf Jakob Camerarius",
@@ -4920,7 +4920,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 341,
       "domain": "biology",
-      "advisee_count": 132920
+      "advisee_count": 1
     },
     "n66476": {
       "name": "Abraham Gotthelf Kästner",
@@ -4940,7 +4940,7 @@
       "distance_from_focal": 11,
       "temporal_distance": 286,
       "domain": "math",
-      "advisee_count": 132908
+      "advisee_count": 12
     },
     "n221101": {
       "name": "Anton Euonymus",
@@ -4959,7 +4959,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 442,
       "domain": "medicine",
-      "advisee_count": 135854
+      "advisee_count": 5
     },
     "n126894": {
       "name": "Georg Ludwig König",
@@ -4978,7 +4978,7 @@
       "distance_from_focal": 7,
       "temporal_distance": 208,
       "domain": "math",
-      "advisee_count": 4695
+      "advisee_count": 1
     },
     "n126895": {
       "name": "Christian Wilhelm Küstner",
@@ -4997,7 +4997,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 283,
       "domain": "philosophy",
-      "advisee_count": 7440
+      "advisee_count": 1
     },
     "n47025": {
       "name": "Karl Christian von Langsdorf",
@@ -5017,7 +5017,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 244,
       "domain": "polymath",
-      "advisee_count": 75637
+      "advisee_count": 3
     },
     "n18355": {
       "name": "Beno Eckmann",
@@ -5037,7 +5037,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 83,
       "domain": "math",
-      "advisee_count": 2156
+      "advisee_count": 72
     },
     "n18363": {
       "name": "Peter Jost Huber",
@@ -5058,7 +5058,7 @@
       "distance_from_focal": 4,
       "temporal_distance": 63,
       "domain": "math",
-      "advisee_count": 678
+      "advisee_count": 22
     },
     "n131517": {
       "name": "Guillaume Budé",
@@ -5078,7 +5078,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 539,
       "domain": "philosophy",
-      "advisee_count": 196249
+      "advisee_count": 2
     },
     "n125886": {
       "name": "Georg Erhard Hamberger",
@@ -5098,7 +5098,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 304,
       "domain": "theology",
-      "advisee_count": 120909
+      "advisee_count": 6
     },
     "n4031": {
       "name": "Abraham Charnes",
@@ -5119,7 +5119,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 78,
       "domain": "math",
-      "advisee_count": 274
+      "advisee_count": 35
     },
     "n125888": {
       "name": "Jan Standonck",
@@ -5139,7 +5139,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 535,
       "domain": "theology",
-      "advisee_count": 196348
+      "advisee_count": 4
     },
     "n127424": {
       "name": "Erasmus Schmidt",
@@ -5158,7 +5158,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 433,
       "domain": "theology",
-      "advisee_count": 135833
+      "advisee_count": 2
     },
     "n125378": {
       "name": "Thomas Erpenius",
@@ -5178,7 +5178,7 @@
       "distance_from_focal": 15,
       "temporal_distance": 417,
       "domain": "philosophy",
-      "advisee_count": 168571
+      "advisee_count": 1
     },
     "n125379": {
       "name": "Tycho (Tyge Ottesen) Brahe",
@@ -5198,7 +5198,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 463,
       "domain": "astronomy",
-      "advisee_count": 135853
+      "advisee_count": 3
     },
     "n125892": {
       "name": "Petrus (Pieter de Corte) Curtius",
@@ -5217,7 +5217,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 512,
       "domain": "theology",
-      "advisee_count": 164117
+      "advisee_count": 1
     },
     "n146365": {
       "name": "Nilos Kabasilas",
@@ -5237,7 +5237,7 @@
       "distance_from_focal": 21,
       "temporal_distance": 662,
       "domain": "theology",
-      "advisee_count": 196431
+      "advisee_count": 1
     },
     "n125894": {
       "name": "Maarten (Martinus Dorpius) van Dorp",
@@ -5257,7 +5257,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 521,
       "domain": "theology",
-      "advisee_count": 164118
+      "advisee_count": 1
     },
     "n56263": {
       "name": "Wilhelm Gottlieb Hankel",
@@ -5277,7 +5277,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 186,
       "domain": "physics",
-      "advisee_count": 9892
+      "advisee_count": 15
     },
     "n17864": {
       "name": "Joseph Louis Lagrange",
@@ -5297,7 +5297,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 271,
       "domain": "math",
-      "advisee_count": 131188
+      "advisee_count": 3
     },
     "n17865": {
       "name": "Siméon Denis Poisson",
@@ -5318,7 +5318,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 225,
       "domain": "math",
-      "advisee_count": 131185
+      "advisee_count": 4
     },
     "n29642": {
       "name": "Christian Ludwig Gerling",
@@ -5338,7 +5338,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 213,
       "domain": "math",
-      "advisee_count": 77028
+      "advisee_count": 2
     },
     "n125897": {
       "name": "Leo Outers",
@@ -5357,7 +5357,7 @@
       "distance_from_focal": 21,
       "temporal_distance": 540,
       "domain": "theology",
-      "advisee_count": 164119
+      "advisee_count": 1
     },
     "n125898": {
       "name": "Alexander Hegius",
@@ -5377,7 +5377,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 551,
       "domain": "philosophy",
-      "advisee_count": 196313
+      "advisee_count": 1
     },
     "n127946": {
       "name": "Christian Thomasius",
@@ -5397,7 +5397,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 346,
       "domain": "philosophy",
-      "advisee_count": 12236
+      "advisee_count": 2
     },
     "n131535": {
       "name": "Angelo Poliziano",
@@ -5417,7 +5417,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 548,
       "domain": "philosophy",
-      "advisee_count": 196320
+      "advisee_count": 2
     },
     "n131539": {
       "name": "Marsilio Ficino",
@@ -5437,7 +5437,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 563,
       "domain": "philosophy",
-      "advisee_count": 196321
+      "advisee_count": 1
     },
     "n127956": {
       "name": "Johann Andreas Quenstedt",
@@ -5457,7 +5457,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 381,
       "domain": "theology",
-      "advisee_count": 135829
+      "advisee_count": 1
     },
     "n131541": {
       "name": "Janus Lascaris",
@@ -5477,7 +5477,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 553,
       "domain": "philosophy",
-      "advisee_count": 196280
+      "advisee_count": 2
     },
     "n66006": {
       "name": "Bernhard Nebel",
@@ -5499,7 +5499,7 @@
       "distance_from_focal": 2,
       "temporal_distance": 36,
       "domain": "informatics",
-      "advisee_count": 43
+      "advisee_count": 18
     },
     "n119254": {
       "name": "Justus (Joost Lips) Lipsius",
@@ -5519,7 +5519,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 456,
       "domain": "philosophy",
-      "advisee_count": 31271
+      "advisee_count": 1
     },
     "n47064": {
       "name": "Martin Ohm",
@@ -5539,7 +5539,7 @@
       "distance_from_focal": 9,
       "temporal_distance": 214,
       "domain": "math",
-      "advisee_count": 71773
+      "advisee_count": 12
     },
     "n127962": {
       "name": "Michael d. J. Walther",
@@ -5559,7 +5559,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 338,
       "domain": "medicine",
-      "advisee_count": 135828
+      "advisee_count": 11
     },
     "n128986": {
       "name": "Johann Andreas Planer",
@@ -5578,7 +5578,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 316,
       "domain": "theology",
-      "advisee_count": 132919
+      "advisee_count": 2
     },
     "n128987": {
       "name": "François Dubois",
@@ -5597,7 +5597,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 509,
       "domain": "theology",
-      "advisee_count": 196249
+      "advisee_count": 1
     },
     "n72669": {
       "name": "Johann Christoph Wichmannshausen",
@@ -5617,7 +5617,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 340,
       "domain": "math",
-      "advisee_count": 132915
+      "advisee_count": 1
     },
     "n131546": {
       "name": "Jacques Toussain",
@@ -5636,7 +5636,7 @@
       "distance_from_focal": 18,
       "temporal_distance": 504,
       "domain": "philosophy",
-      "advisee_count": 196238
+      "advisee_count": 2
     },
     "n125408": {
       "name": "Jacobus Golius",
@@ -5656,7 +5656,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 413,
       "domain": "math",
-      "advisee_count": 168570
+      "advisee_count": 3
     },
     "n67041": {
       "name": "John Trowbridge",
@@ -5676,7 +5676,7 @@
       "distance_from_focal": 10,
       "temporal_distance": 152,
       "domain": "physics",
-      "advisee_count": 4518
+      "advisee_count": 2
     },
     "n127459": {
       "name": "Melchior Jöstel",
@@ -5695,7 +5695,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 442,
       "domain": "theology",
-      "advisee_count": 135850
+      "advisee_count": 1
     },
     "n92644": {
       "name": "Willis Laurens Emery",
@@ -5714,7 +5714,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 78,
       "domain": "math",
-      "advisee_count": 987
+      "advisee_count": 1
     },
     "n101860": {
       "name": "Franciscus de le Boë Sylvius",
@@ -5735,7 +5735,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 391,
       "domain": "medicine",
-      "advisee_count": 154939
+      "advisee_count": 11
     },
     "n127461": {
       "name": "Ernestus Hettenbach",
@@ -5754,7 +5754,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 449,
       "domain": "theology",
-      "advisee_count": 135850
+      "advisee_count": 1
     },
     "n171491": {
       "name": "Evangelos Triantaphyllou",
@@ -5794,7 +5794,7 @@
       "distance_from_focal": 13,
       "temporal_distance": 430,
       "domain": "philosophy",
-      "advisee_count": 31270
+      "advisee_count": 1
     },
     "n131561": {
       "name": "Basilios Bessarion",
@@ -5814,7 +5814,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 589,
       "domain": "theology",
-      "advisee_count": 196403
+      "advisee_count": 3
     },
     "n137705": {
       "name": "Jakob Thomasius",
@@ -5834,7 +5834,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 382,
       "domain": "philosophy",
-      "advisee_count": 179195
+      "advisee_count": 3
     },
     "n29675": {
       "name": "Hermann Minkowski",
@@ -5854,7 +5854,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 140,
       "domain": "math",
-      "advisee_count": 5725
+      "advisee_count": 7
     },
     "n126956": {
       "name": "Philipp Melanchthon",
@@ -5875,7 +5875,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 511,
       "domain": "theology",
-      "advisee_count": 196213
+      "advisee_count": 4
     },
     "n126957": {
       "name": "Sebastian (Theodoricus) Dietrich",
@@ -5894,7 +5894,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 481,
       "domain": "theology",
-      "advisee_count": 135857
+      "advisee_count": 2
     },
     "n19950": {
       "name": "Friedrich Karl Schmidt",
@@ -5914,7 +5914,7 @@
       "distance_from_focal": 5,
       "temporal_distance": 100,
       "domain": "math",
-      "advisee_count": 977
+      "advisee_count": 12
     },
     "n125422": {
       "name": "Jacobus (Jacques Dubois) Sylvius",
@@ -5934,7 +5934,7 @@
       "distance_from_focal": 17,
       "temporal_distance": 495,
       "domain": "medicine",
-      "advisee_count": 196248
+      "advisee_count": 3
     },
     "n228334": {
       "name": "Johann Wilhelm Baier",
@@ -5954,7 +5954,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 352,
       "domain": "theology",
-      "advisee_count": 7492
+      "advisee_count": 2
     },
     "n125938": {
       "name": "Desiderius Erasmus",
@@ -5974,7 +5974,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 519,
       "domain": "philosophy",
-      "advisee_count": 196312
+      "advisee_count": 2
     },
     "n143859": {
       "name": "Bartholomäus Leonhard Schwendendörffer",
@@ -5993,7 +5993,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 369,
       "domain": "philosophy",
-      "advisee_count": 147538
+      "advisee_count": 1
     },
     "n164338": {
       "name": "Sigismondo Polcastro",
@@ -6013,7 +6013,7 @@
       "distance_from_focal": 19,
       "temporal_distance": 601,
       "domain": "medicine",
-      "advisee_count": 164161
+      "advisee_count": 1
     },
     "n137717": {
       "name": "Valentin Alberti",
@@ -6033,7 +6033,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 347,
       "domain": "philosophy",
-      "advisee_count": 12239
+      "advisee_count": 3
     },
     "n80886": {
       "name": "Benjamin Peirce",
@@ -6053,7 +6053,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 196,
       "domain": "math",
-      "advisee_count": 6218
+      "advisee_count": 2
     },
     "n131575": {
       "name": "Georgios Plethon Gemistos",
@@ -6073,7 +6073,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 645,
       "domain": "philosophy",
-      "advisee_count": 196406
+      "advisee_count": 2
     },
     "n131576": {
       "name": "Demetrios Chalcocondyles",
@@ -6093,7 +6093,7 @@
       "distance_from_focal": 20,
       "temporal_distance": 573,
       "domain": "philosophy",
-      "advisee_count": 196281
+      "advisee_count": 1
     },
     "n131577": {
       "name": "Joseph Justus Scaliger",
@@ -6113,7 +6113,7 @@
       "distance_from_focal": 16,
       "temporal_distance": 462,
       "domain": "philosophy",
-      "advisee_count": 168572
+      "advisee_count": 1
     },
     "n125434": {
       "name": "Marin Mersenne",
@@ -6133,7 +6133,7 @@
       "distance_from_focal": 14,
       "temporal_distance": 414,
       "domain": "polymath",
-      "advisee_count": 164803
+      "advisee_count": 3
     },
     "n19964": {
       "name": "Rudolf Otto Sigismund Lipschitz",
@@ -6153,7 +6153,7 @@
       "distance_from_focal": 8,
       "temporal_distance": 172,
       "domain": "math",
-      "advisee_count": 71735
+      "advisee_count": 1
     },
     "n119293": {
       "name": "Arnold Geulincx",
@@ -6173,7 +6173,7 @@
       "distance_from_focal": 12,
       "temporal_distance": 367,
       "domain": "philosophy",
-      "advisee_count": 31269
+      "advisee_count": 1
     },
     "n5119": {
       "name": "Alfred Loewy",
@@ -6193,7 +6193,7 @@
       "distance_from_focal": 6,
       "temporal_distance": 131,
       "domain": "math",
-      "advisee_count": 1699
+      "advisee_count": 6
     }
   },
   "edges": [
