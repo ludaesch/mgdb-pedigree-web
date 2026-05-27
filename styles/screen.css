@@ -252,31 +252,35 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 
 .links-row {
   display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  flex-wrap: wrap;
+  gap: 0.35rem;
   margin-bottom: 1rem;
 }
 
 .link-btn {
-  display: block;
-  padding: 0.45rem 0.7rem;
+  padding: 0.3rem 0.65rem;
   text-decoration: none;
   text-align: center;
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: 999px;
   background: white;
   color: var(--link);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 .link-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
 .link-btn.primary {
+  flex-basis: 100%;
+  padding: 0.45rem 0.7rem;
+  border-radius: 4px;
   background: var(--accent);
   color: white;
   border-color: var(--accent);
   font-weight: 600;
+  font-size: 0.9rem;
 }
 .link-btn.primary:hover { background: #9a7522; }
-.link-btn.tertiary { color: var(--muted); font-size: 0.85rem; }
+.link-btn.tertiary { color: var(--muted); font-size: 0.8rem; }
 
 .notes {
   font-size: 0.85rem;
