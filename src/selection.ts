@@ -1,6 +1,6 @@
 import type { LinkKind, RenderSpec, SpecNode } from "./types";
 import { LINK_LABELS, LINK_PRIORITY, ROLE_LABELS } from "./types";
-import { bestLink, fallbackSearchUrl } from "./links";
+import { bestLink, fallbackSearchUrl, mgpUrlFromNid } from "./links";
 import type { SvgNodeIndex } from "./svgIndex";
 
 export interface SelectionUI {
@@ -66,7 +66,7 @@ export function showNode(
   ui.nameEl.textContent = node.name;
   ui.rolesEl.replaceChildren(...renderRoles(node));
   ui.factsEl.replaceChildren(...renderFacts(node, spec));
-  ui.linksEl.replaceChildren(...renderLinks(node));
+  ui.linksEl.replaceChildren(...renderLinks(nid, node));
   if (node.notes) {
     ui.notesEl.textContent = node.notes;
     ui.notesEl.hidden = false;
@@ -111,7 +111,7 @@ function renderFacts(node: SpecNode, _spec: RenderSpec): Node[] {
   return out;
 }
 
-function renderLinks(node: SpecNode): Node[] {
+function renderLinks(nid: string, node: SpecNode): Node[] {
   const out: Node[] = [];
   const best = bestLink(node);
 
@@ -153,10 +153,14 @@ function renderLinks(node: SpecNode): Node[] {
     out.push(a);
   }
 
-  // Non-priority extras (wikidata, mgp) at the end.
+  // Non-priority extras (wikidata, mgp) at the end. MGP is derived from the
+  // node key when not explicitly populated in the spec — every non-synthetic
+  // node corresponds to an MGP record.
   const extras: LinkKind[] = ["wikidata", "mgp"];
   for (const kind of extras) {
-    const url = node.links[kind];
+    const url = kind === "mgp"
+      ? (node.links.mgp ?? mgpUrlFromNid(nid, node))
+      : node.links[kind];
     if (!url) continue;
     const a = document.createElement("a");
     a.className = "link-btn tertiary";

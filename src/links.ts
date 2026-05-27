@@ -17,6 +17,14 @@ export function fallbackSearchUrl(node: SpecNode): string {
   return `https://www.google.com/search?q=${q}`;
 }
 
+// Derive the MGP URL from the node key for non-synthetic nodes.
+// Node keys are `n<MGP-PID>` (e.g. n7298 = Hilbert); synthetic nodes use other prefixes.
+export function mgpUrlFromNid(nid: string, node: SpecNode): string | null {
+  if (node.synthetic) return null;
+  const m = nid.match(/^n(\d+)$/);
+  return m ? `https://www.genealogy.math.ndsu.nodak.edu/id.php?id=${m[1]}` : null;
+}
+
 // The "click here first" URL: priority list, then fallback search.
 export function bestLink(node: SpecNode): { url: string; isFallback: boolean; kind: LinkKind | null } {
   const primary = primaryLink(node);
